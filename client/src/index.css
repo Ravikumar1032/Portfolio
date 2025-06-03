@@ -1,0 +1,259 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Light mode colors */
+  --background: 0 0% 100%; /* #ffffff */
+  --foreground: 220 13% 9%; /* #0a0a0a */
+  --muted: 220 13% 96%; /* #f5f5f5 */
+  --muted-foreground: 0 0% 45%; /* #737373 */
+  --popover: 0 0% 100%; /* #ffffff */
+  --popover-foreground: 220 13% 9%; /* #0a0a0a */
+  --card: 0 0% 100%; /* #ffffff */
+  --card-foreground: 220 13% 9%; /* #0a0a0a */
+  --border: 220 13% 91%; /* #e5e5e5 */
+  --input: 220 13% 91%; /* #e5e5e5 */
+  --primary: 217 91% 60%; /* #5390D9 */
+  --primary-foreground: 0 0% 100%; /* #ffffff */
+  --secondary: 281 100% 48%; /* #6a00f4 */
+  --secondary-foreground: 0 0% 100%; /* #ffffff */
+  --accent: 276 100% 47%; /* #8900f2 */
+  --accent-foreground: 0 0% 100%; /* #ffffff */
+  --accent-light: 276 100% 47%; /* #a100f2 */
+  --accent-medium: 217 91% 60%; /* #5390D9 */
+  --destructive: 0 84% 60%; /* #ef4444 */
+  --destructive-foreground: 0 0% 100%; /* #ffffff */
+  --ring: 217 91% 60%; /* #5390D9 */
+  --radius: 0.5rem;
+}
+
+.dark {
+  /* Dark mode colors */
+  --background: 220 13% 9%; /* #0a0a0a */
+  --foreground: 0 0% 100%; /* #ffffff */
+  --muted: 220 13% 16%; /* #1a1a1a */
+  --muted-foreground: 0 0% 69%; /* #b0b0b0 */
+  --popover: 220 13% 12%; /* #121212 */
+  --popover-foreground: 0 0% 100%; /* #ffffff */
+  --card: 220 13% 16%; /* #1a1a1a */
+  --card-foreground: 0 0% 100%; /* #ffffff */
+  --border: 220 13% 20%; /* #2a2a2a */
+  --input: 220 13% 20%; /* #2a2a2a */
+  --primary: 217 91% 60%; /* #5390D9 */
+  --primary-foreground: 0 0% 100%; /* #ffffff */
+  --secondary: 281 100% 36%; /* #7400B8 */
+  --secondary-foreground: 0 0% 100%; /* #ffffff */
+  --accent: 190 100% 57%; /* #48BFE3 */
+  --accent-foreground: 0 0% 0%; /* #000000 */
+  --destructive: 0 84% 60%; /* #ef4444 */
+  --destructive-foreground: 0 0% 100%; /* #ffffff */
+  --ring: 217 91% 60%; /* #5390D9 */
+}
+
+/* Force theme backgrounds - Add this at the bottom */
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+html:not(.dark) {
+  /* Light mode - force white background */
+  background-color: #ffffff !important;
+  color: #0a0a0a !important;
+}
+
+html.dark {
+  /* Dark mode - force dark background */
+  background-color: #0a0a0a !important;
+  color: #ffffff !important;
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+html:not(.dark) body {
+  background-color: #ffffff !important;
+  color: #0a0a0a !important;
+}
+
+html.dark body {
+  background-color: #0a0a0a !important;
+  color: #ffffff !important;
+}
+
+/* Also apply to your main app container */
+#root {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  min-height: 100vh;
+}
+
+html:not(.dark) #root {
+  background-color: #ffffff !important;
+  color: #0a0a0a !important;
+}
+
+html.dark #root {
+  background-color: #0a0a0a !important;
+  color: #ffffff !important;
+}
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    min-height: 100%;
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+
+  /* Explicit theme styling */
+  html:not(.dark) {
+    background: white;
+    color: #0a0a0a;
+  }
+
+  html.dark {
+    background: #0a0a0a;
+    color: white;
+  }
+
+  html:not(.dark) body {
+    background: white;
+    color: #0a0a0a;
+  }
+
+  html.dark body {
+    background: #0a0a0a;
+    color: white;
+  }
+
+  .font-mono {
+    font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+  }
+}
+
+/* @layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  }
+
+  .font-mono {
+    font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+  }
+} */
+
+@layer components {
+  .text-gradient {
+    background: linear-gradient(to right, #6a00f4, #8900f2, #a100f2, #5390D9);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+
+  .gradient-bg {
+    background: linear-gradient(-45deg, hsl(var(--secondary)), hsl(var(--primary)), hsl(var(--accent)), hsl(var(--accent-medium)));
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 ease-in-out;
+  }
+
+  .card-hover:hover {
+    @apply -translate-y-2 shadow-xl;
+    box-shadow: 0 20px 40px hsla(var(--primary) / 0.15);
+  }
+
+  .nav-link {
+    @apply relative transition-colors duration-300;
+  }
+
+  .nav-link::after {
+    @apply absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-primary to-accent transition-all duration-300;
+    content: '';
+  }
+
+  .nav-link:hover::after,
+  .nav-link.active::after {
+    @apply w-full;
+  }
+
+  .skill-bar {
+    @apply h-1 bg-gradient-to-r from-primary to-accent rounded-full transition-all duration-1000 ease-out;
+  }
+}
+
+@layer utilities {
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-gradient {
+    animation: gradient 8s ease infinite;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.8s ease-out;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 1s ease-out;
+  }
+}
+
+@keyframes gradient {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

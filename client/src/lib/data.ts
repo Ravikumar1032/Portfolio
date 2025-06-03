@@ -1,0 +1,225 @@
+
+export const projects = [
+  {
+    title: "Personal Portfolio",
+    description: "Developed a responsive portfolio website using React.js with sections for projects and skills. Implemented contact form functionality with backend validation and database storage. Optimized website performance and SEO with proper meta tags and efficient code. Created an appealing and professional UI to showcase personal achievements and skills.",
+    image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+    technologies: ["React", "Tailwind CSS", "Material UI", "Framer Motion", "TypeScript", "Vite"],
+    github: "https://github.com/Ravikumar1032/Portfolio",
+    demo: null,
+  },
+  {
+    title: "Connectify Like Minds",
+    description: "Developed a comprehensive learning platform connecting users with similar interests using MERN stack. Built a collaboration tool for students with secure login and dynamic course catalogs. Implemented group functionalities and real-time communication features. Created RESTful APIs for smooth front-end and back-end communication.",
+    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+    technologies: ["JavaScript", "React", "Node.js", "Express", "MongoDB"],
+    github: "https://github.com/Ravikumar1032/Connectify",
+    demo: null,
+  },
+  {
+    title: "FloraCart",
+    description: "Created an e-commerce platform with responsive UI using React.js and Bootstrap. Developed dynamic product filtering and search functionality using JavaScript. Built secure authentication system with user profile management features. Implemented state management for cart functionality and checkout process.",
+    image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+    technologies: ["JavaScript", "React.js", "Bootstrap", "CSS"],
+    github: "https://github.com/Ravikumar1032/FloraCart",
+    demo: null,
+  },
+  {
+    title: "Loan Web App",
+    description: "Comprehensive loan management solution with separate user and admin workflows. Implemented multi-step loan application form capturing personal, financial, and banking details. Built admin dashboard with application review functionality and credit assessment logic. Created responsive design ensuring optimal user experience across all devices.",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+    technologies: ["JavaScript", "React", "Node.js", "Express", "MongoDB"],
+    github: "https://github.com/Ravikumar1032/Loan-Web-App",
+    demo: null,
+  },
+  {
+    title: "E-Commerce Website",
+    description: "Modern e-commerce platform built with HTML, CSS, and JavaScript. Features responsive design, product catalog, shopping cart functionality, and user authentication. Implemented clean UI/UX with modern web standards and optimized for performance across all devices.",
+    image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Ravikumar1032/E-Commerce-Website",
+    demo: null,
+  },
+  {
+    title: "Kid Activity Assignment App",
+    description: "Developed a parenting app to help manage and track kids' activities and achievements. Implemented dynamic points calculation for total, monthly, and recent activity performance. Created functionality to update activity points in real-time and delete activities with confirmation. Built responsive interface with React and styled with Bootstrap for optimal user experience.",
+    image: "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+    technologies: ["JavaScript", "React", "Node.js", "MongoDB"],
+    github: "https://github.com/Ravikumar1032/Kid-Activity-Assignment-App",
+    demo: null,
+  },
+  {
+    title: "Tic-Tac-Toe Game",
+    description: "Interactive Tic-Tac-Toe game built with React and magic square algorithm for system vs player mode. Features clean user interface, intelligent AI opponent, win detection algorithm, and responsive design. Includes player vs computer mode with strategic gameplay and score tracking.",
+    image: "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+    technologies: ["React", "Magic Square Algorithm", "JavaScript", "HTML", "CSS"],
+    github: "https://github.com/Ravikumar1032/Tic-Toc-Toe",
+    demo: null,
+  },
+  {
+    title: "Intern Experience Project",
+    description: "Project developed during internship at Edubot Software Services. Gained practical experience in Java development, software engineering practices, and collaborative development workflows. Worked on real-world applications with database connectivity and learned industry best practices.",
+    image: "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+    technologies: ["Java", "React", "PostgreSQL", "JDBC Connection"],
+    github: "https://github.com/Ravikumar1032/Intern-At-Edubot",
+    demo: null,
+  },
+];
+
+export const skillCategories = [
+  {
+    title: "Frontend Development",
+    icon: "Palette", // Changed from 🎨
+    color: "text-primary",
+    skills: [
+      { name: "React.js", level: 90 },
+      { name: "TypeScript", level: 85 },
+      { name: "HTML5/CSS3", level: 95 },
+      { name: "Tailwind CSS", level: 88 },
+      { name: "Material UI", level: 82 },
+    ],
+  },
+  {
+    title: "Backend Development",
+    icon: "Settings", // Changed from ⚙️
+    color: "text-accent",
+    skills: [
+      { name: "Node.js", level: 87 },
+      { name: "Express.js", level: 85 },
+      { name: "MongoDB", level: 80 },
+      { name: "REST APIs", level: 90 },
+      { name: "Frappe Framework", level: 78 },
+      { name: "Socket.io", level: 75 },
+    ],
+  },
+  {
+    title: "Programming & Tools",
+    icon: "Code", // Changed from 💻
+    color: "text-secondary",
+    skills: [
+      { name: "Java", level: 85 },
+      { name: "Python", level: 75 },
+      { name: "JavaScript", level: 92 },
+      { name: "Git/GitHub", level: 88 },
+      { name: "SQL", level: 82 },
+    ],
+  },
+];
+
+export const experiences = [
+  {
+    title: "Jr. Software Developer Intern",
+    company: "Ezfinanz, Hyderabad",
+    period: "Feb 2025 – Present",
+    image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
+    responsibilities: [
+      "Developing and integrating RESTful APIs for financial services applications",
+      "Building responsive user interfaces with React, TypeScript and Tailwind CSS",
+      "Implementing real-time communication features using Socket.io",
+      "Working with Material UI and ShadCN to create consistent user interfaces",
+      "Working with Frappe framework DocType, client script, workers, batches etc",
+      "Integrated React with TypeScript and Frappe",
+      "API testing tools like Postman and Bruno and PostgreSQL database management TablePlus tools used",
+    ],
+  },
+  {
+    title: "Full Stack Developer Intern",
+    company: "Edubot Software Services, Vijayawada",
+    period: "Jun 2024 – Aug 2024",
+    image: "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
+    responsibilities: [
+      "One month trainee work done with practical experience in full-stack development",
+      "Built responsive and user-friendly interfaces using HTML, CSS, Bootstrap, and React",
+      "Basic understanding of Spring Boot and annotations",
+      "Worked with simple unit testing (JUnit Testing)",
+    ],
+  },
+];
+
+export const education = [
+  {
+    degree: "B.Tech in Computer Science and Engineering",
+    institution: "Rajiv Gandhi University of Knowledge Technologies, Nuzvid",
+    period: "2021 – 2025",
+    grade: "CGPA: 7.8",
+    icon: "GraduationCap", // Changed from 🎓
+    gradient: "from-primary to-accent", 
+    description: "Completed my Bachelor of Technology in Computer Science Engineering with a focus on software development, data structures, algorithms, and modern web technologies. Active in coding competitions and practical project development.",
+  },
+  {
+    degree: "Pre-University Course (PUC)",
+    institution: "Rajiv Gandhi University of Knowledge Technologies, Nuzvid",
+    period: "2019 – 2021",
+    grade: "CGPA: 8.55",
+    icon: "BookOpen", // Changed from 📚
+    gradient: "from-accent to-secondary",
+    description: "Completed Pre-University Course with excellent academic performance, building strong foundation in mathematics, physics, and computer science fundamentals.",
+  },
+  {
+    degree: "High School (SSC)",
+    institution: "Government High School, Vellatur",
+    period: "2018 – 2019",
+    grade: "GPA: 9.8",
+    icon: "School", // Changed from 🏫
+    gradient: "from-secondary to-primary",
+    description: "Completed high school education with outstanding academic performance, demonstrating excellence in core subjects and setting foundation for future studies.",
+    achievement: "Secured Mandal First position in 10th Class",
+  },
+];
+
+export const achievements = [
+  {
+    title: "LeetCode Champion",
+    organization: "250+ Problems Solved",
+    description: "Completed over 250+ problems on LeetCode, earning 50 Days and 100 Days consistency badges. Strong problem-solving skills in data structures and algorithms.",
+    icon: "Code2", // String reference instead of component
+    gradient: "from-orange-500 to-red-500",
+    badgeColor: "orange-400",
+    status: "50 & 100 Days Badges",
+  },
+  {
+    title: "Internship Completion",
+    organization: "Edubot Software Services",
+    description: "Successfully completed 3-month Full Stack Developer internship with excellent performance in web development projects and practical software solutions.",
+    icon: "Building2",
+    gradient: "from-blue-500 to-indigo-600",
+    badgeColor: "blue-400",
+    status: "Certified",
+  },
+  {
+    title: "AI & Prompt Engineering",
+    organization: "LinkedIn Learning",
+    description: "Completed 'Intro to Prompt Engineering for Gen AI' course, gaining expertise in modern AI technologies and prompt optimization techniques.",
+    icon: "Bot",
+    gradient: "from-green-500 to-emerald-600",
+    badgeColor: "green-400",
+    status: "LinkedIn Certified",
+  },
+  {
+    title: "Web Development",
+    organization: "Udemy",
+    description: "Completed comprehensive 'Fundamentals of Web Development' course covering HTML, CSS, JavaScript, and modern web development practices.",
+    icon: "Globe",
+    gradient: "from-purple-500 to-pink-600",
+    badgeColor: "purple-400",
+    status: "Udemy Certified",
+  },
+  {
+    title: "Version Control",
+    organization: "LinkedIn Learning",
+    description: "Mastered Git and GitHub workflows through comprehensive course, essential for collaborative software development and project management.",
+    icon: "GitBranch",
+    gradient: "from-gray-600 to-gray-800",
+    badgeColor: "gray-400",
+    status: "Git Expert",
+  },
+  {
+    title: "Academic Excellence",
+    organization: "Mandal First",
+    description: "Secured Mandal First position in 10th Class with 9.8 GPA, demonstrating exceptional academic performance and dedication to learning.",
+    icon: "Trophy",
+    gradient: "from-yellow-500 to-orange-500",
+    badgeColor: "yellow-400",
+    status: "Top Performer",
+  },
+];
