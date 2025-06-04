@@ -10,21 +10,31 @@ export default function Footer() {
             Building the future, one line of code at a time.
           </p>
           <div className="flex justify-center gap-6 mb-8">
+            <a href="#home" className="text-muted-foreground hover:text-primary transition-colors">
+              Home
+            </a>
             <a href="#about" className="text-muted-foreground hover:text-primary transition-colors">
               About
             </a>
             <a href="#experience" className="text-muted-foreground hover:text-primary transition-colors">
               Experience
             </a>
-            <a href="#projects" className="text-muted-foreground hover:text-primary transition-colors">
-              Projects
-            </a>
-            
             <a href="#skills" className="text-muted-foreground hover:text-primary transition-colors">
               Skills
             </a>
-            <a href="#contact" className="text-muted-foreground hover:text-primary transition-colors">
-              Contact
+          </div>
+          <div className="flex justify-center gap-6 mb-8">
+            <a href="#projects" className="text-muted-foreground hover:text-primary transition-colors">
+              Projects
+            </a>
+            <a href="#achievements" className="text-muted-foreground hover:text-primary transition-colors">
+               Achievements
+            </a>
+            <a href="#projects" className="text-muted-foreground hover:text-primary transition-colors">
+              Projects
+            </a>
+            <a href="#goals" className="text-muted-foreground hover:text-primary transition-colors">
+             Goals
             </a>
           </div>
           <div className="flex justify-center gap-4 mb-8">
