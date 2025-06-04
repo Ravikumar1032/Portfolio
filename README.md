@@ -21,17 +21,17 @@ A modern, responsive personal portfolio website built with **React**, **TypeScri
 ## 🖼️ Screenshots
 
 <p align="center">
-  <img src="./client/src/assets/screenshort/img1.png" />
-  <img src="./client/src/assets/screenshort/img2.png" />
-  <img src="./client/src/assets/screenshort/img3.png" />
-  <img src="./client/src/assets/screenshort/img4.png" />
-  <img src="./client/src/assets/screenshort/img5.png" />
-  <img src="./client/src/assets/screenshort/img6.png" />
-  <img src="./client/src/assets/screenshort/img7.png" />
-  <img src="./client/src/assets/screenshort/img8.png" />
-  <img src="./client/src/assets/screenshort/img9.png" />
-  <img src="./client/src/assets/screenshort/img10.png" />
-  <img src="./client/src/assets/screenshort/img11.png" />
+  <img src="./frontend/src/assets/screenshort/img1.png" />
+  <img src="./frontend/src/assets/screenshort/img2.png" />
+  <img src="./frontend/src/assets/screenshort/img3.png" />
+  <img src="./frontend/src/assets/screenshort/img4.png" />
+  <img src="./frontend/src/assets/screenshort/img5.png" />
+  <img src="./frontend/src/assets/screenshort/img6.png" />
+  <img src="./frontend/src/assets/screenshort/img7.png" />
+  <img src="./frontend/src/assets/screenshort/img8.png" />
+  <img src="./frontend/src/assets/screenshort/img9.png" />
+  <img src="./frontend/src/assets/screenshort/img10.png" />
+  <img src="./frontend/src/assets/screenshort/img11.png" />
 </p>
 
 ---
