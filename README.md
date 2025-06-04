@@ -79,11 +79,6 @@ Portfolio/
 
 ## 🚀 Getting Started
 
-### Prerequisites
-
-- Node.js (Latest LTS)
-- PostgreSQL (if using backend)
-
 ### Installation
 
 1. Clone the repository
