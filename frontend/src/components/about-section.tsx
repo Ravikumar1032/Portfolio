@@ -36,7 +36,7 @@ export default function AboutSection() {
             viewport={{ once: true }}
           >
             <img
-              src="src/assets/profile/my_image.jpg"
+              src="frontend/src/assets/profile/my_image.jpg"
               alt="Ravikumar Naik - Professional developer"
               className="rounded-2xl shadow-lg w-full h-auto"
             />
