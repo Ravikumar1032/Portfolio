@@ -3,7 +3,7 @@ export const projects = [
   {
     title: "Personal Portfolio",
     description: "Developed a responsive portfolio website using React.js with sections for projects and skills. Implemented contact form functionality with backend validation and database storage. Optimized website performance and SEO with proper meta tags and efficient code. Created an appealing and professional UI to showcase personal achievements and skills.",
-    image: "https://raw.githubusercontent.com/Ravikumar1032/Portfolio/refs/heads/main/frontend/src/assets/screenshort/img1.png",,
+    image: "https://raw.githubusercontent.com/Ravikumar1032/Portfolio/refs/heads/main/frontend/src/assets/screenshort/img1.png",
     technologies: ["React", "Tailwind CSS", "Material UI", "Framer Motion", "TypeScript", "Vite"],
     github: "https://github.com/Ravikumar1032/Portfolio",
     demo: null,
