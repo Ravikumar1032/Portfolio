@@ -67,9 +67,7 @@ export default function EducationSection() {
                       >
                         {IconComponent && (
                           <motion.div
-                            animate={{ 
-                              rotate: [0, 360] 
-                            }}
+                            
                             transition={{
                               duration: 8,
                               repeat: Infinity,
