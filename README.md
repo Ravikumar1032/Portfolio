@@ -55,7 +55,7 @@ A modern, responsive personal portfolio website built with **React**, **TypeScri
 
 ```
 Portfolio/
-├── client/
+├── frontend/
 │   ├── index.html
 │   └── src/
 │       ├── App.tsx
@@ -63,8 +63,9 @@ Portfolio/
 │       ├── index.css
 │       ├── pages/
 │       ├── components/
-│       │   ├── ThemeToggle.tsx    # Theme toggle component
-│       │   └── ThemeProvider.tsx  # Theme context provider
+│       │   ├── navigation.tsx    
+│       │   └── ThemeProvider.tsx
+│       │   └──.......
 │       ├── hooks/
 │       │   └── useTheme.ts        # Custom theme hook
 │       ├── lib/
@@ -72,11 +73,6 @@ Portfolio/
 │           ├── profile/
 │           ├── resume/
 │           └── screenshort/
-└── server/
-    ├── index.ts
-    ├── routes.ts
-    ├── storage.ts
-    └── vite.ts
 ```
 
 ---
@@ -93,7 +89,7 @@ Portfolio/
 1. Clone the repository
 ```bash
 git clone https://github.com/Ravikumar1032/Portfolio.git
-cd Portfolio/client
+cd Portfolio
 ```
 
 2. Install dependencies
