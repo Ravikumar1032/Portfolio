@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { motion } from "framer-motion";
-
+import MyImage from "@/assets/profile/my_image.jpg"; 
+MyImage
 const stats = [
   { value: "10+", label: "Projects Completed" },
   { value: "250+", label: "LeetCode Problems" },
@@ -36,7 +37,7 @@ export default function AboutSection() {
             viewport={{ once: true }}
           >
             <img
-              src="frontend/src/assets/profile/my_image.jpg"
+               src={MyImage}
               alt="Ravikumar Naik - Professional developer"
               className="rounded-2xl shadow-lg w-full h-auto"
             />
