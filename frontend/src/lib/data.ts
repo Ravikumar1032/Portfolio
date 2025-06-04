@@ -3,7 +3,7 @@ export const projects = [
   {
     title: "Personal Portfolio",
     description: "Developed a responsive portfolio website using React.js with sections for projects and skills. Implemented contact form functionality with backend validation and database storage. Optimized website performance and SEO with proper meta tags and efficient code. Created an appealing and professional UI to showcase personal achievements and skills.",
-    image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+    image: "https://github.com/Ravikumar1032/Portfolio/blob/main/frontend/src/assets/screenshort/img1.png",
     technologies: ["React", "Tailwind CSS", "Material UI", "Framer Motion", "TypeScript", "Vite"],
     github: "https://github.com/Ravikumar1032/Portfolio",
     demo: null,
@@ -11,7 +11,7 @@ export const projects = [
   {
     title: "Connectify Like Minds",
     description: "Developed a comprehensive learning platform connecting users with similar interests using MERN stack. Built a collaboration tool for students with secure login and dynamic course catalogs. Implemented group functionalities and real-time communication features. Created RESTful APIs for smooth front-end and back-end communication.",
-    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+    image: "https://github.com/Ravikumar1032/Connectify/blob/main/Screenshot/Screenshot%20(85).png",
     technologies: ["JavaScript", "React", "Node.js", "Express", "MongoDB"],
     github: "https://github.com/Ravikumar1032/Connectify",
     demo: null,
@@ -69,7 +69,7 @@ export const projects = [
 export const skillCategories = [
   {
     title: "Frontend Development",
-    icon: "Palette", // Changed from 🎨
+    icon: "Palette", 
     color: "text-primary",
     skills: [
       { name: "React.js", level: 90 },
@@ -77,11 +77,12 @@ export const skillCategories = [
       { name: "HTML5/CSS3", level: 95 },
       { name: "Tailwind CSS", level: 88 },
       { name: "Material UI", level: 82 },
+      { name: "Bootstrap", level: 82 },
     ],
   },
   {
     title: "Backend Development",
-    icon: "Settings", // Changed from ⚙️
+    icon: "Settings", 
     color: "text-accent",
     skills: [
       { name: "Node.js", level: 87 },
@@ -94,13 +95,14 @@ export const skillCategories = [
   },
   {
     title: "Programming & Tools",
-    icon: "Code", // Changed from 💻
+    icon: "Code", 
     color: "text-secondary",
     skills: [
       { name: "Java", level: 85 },
       { name: "Python", level: 75 },
       { name: "JavaScript", level: 92 },
       { name: "Git/GitHub", level: 88 },
+      { name: "Postman", level: 82 },
       { name: "SQL", level: 82 },
     ],
   },
