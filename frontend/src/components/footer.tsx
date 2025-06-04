@@ -33,9 +33,7 @@ export default function Footer() {
             <a href="#projects" className="text-muted-foreground hover:text-primary transition-colors">
               Projects
             </a>
-            <a href="#goals" className="text-muted-foreground hover:text-primary transition-colors">
-             Goals
-            </a>
+            
           </div>
           <div className="flex justify-center gap-4 mb-8">
             <a
