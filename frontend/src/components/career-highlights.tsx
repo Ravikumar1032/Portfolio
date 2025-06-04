@@ -158,7 +158,7 @@ const CareerHighlights = () => {
           {[
             { number: "7.8", label: "CGPA", suffix: "/10" },
             { number: "8+", label: "Months", suffix: " Experience" },
-            { number: "5+", label: "Projects", suffix: " Built" },
+            { number: "10+", label: "Projects", suffix: " Built" },
             { number: "250+", label: "Problems", suffix: " Solved" }
           ].map((stat, index) => (
             <div key={index} className="text-center p-6 bg-card/20 rounded-2xl border border-border hover:border-primary/30 transition-all duration-300">
