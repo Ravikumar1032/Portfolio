@@ -1,13 +1,14 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
-import { fileURLToPath, URL } from "url";
+import { fileURLToPath } from "url";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 
 // Get __dirname equivalent in ES modules
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
+  root: path.resolve(__dirname, "frontend"), // 👈 This sets Vite’s root to frontend/
   plugins: [
     react(),
     runtimeErrorOverlay(),
@@ -15,7 +16,7 @@ export default defineConfig({
     process.env.REPL_ID !== undefined
       ? [
           await import("@replit/vite-plugin-cartographer").then((m) =>
-            m.cartographer(),
+            m.cartographer()
           ),
         ]
       : []),
@@ -23,13 +24,11 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "frontend", "src"),
-      // "@shared": path.resolve(__dirname, "shared"),
       "@assets": path.resolve(__dirname, "attached_assets"),
     },
   },
-  root: path.resolve(__dirname, "frontend"),
   build: {
-    outDir: "dist", // ✅ Better: Vercel looks here by default
+    outDir: path.resolve(__dirname, "dist"), // ✅ Outputs to project root /dist
     emptyOutDir: true,
   },
 });
