@@ -140,7 +140,7 @@ const CareerHighlights = () => {
                     {skill.title}
                   </h4>
                 </div>
-                <ul className="space-y-2">
+                <ul className="space-y-2 ms-8">
                   {skill.items.map((item, itemIndex) => (
                     <li key={itemIndex} className="flex items-center gap-3 text-muted-foreground">
                       <div className="w-2 h-2 rounded-full bg-primary/60"></div>
@@ -158,7 +158,7 @@ const CareerHighlights = () => {
           {[
             { number: "7.8", label: "CGPA", suffix: "/10" },
             { number: "8+", label: "Months", suffix: " Experience" },
-            { number: "10+", label: "Projects", suffix: " Built" },
+            { number: "5+", label: "Projects", suffix: " Built" },
             { number: "250+", label: "Problems", suffix: " Solved" }
           ].map((stat, index) => (
             <div key={index} className="text-center p-6 bg-card/20 rounded-2xl border border-border hover:border-primary/30 transition-all duration-300">
@@ -193,13 +193,6 @@ const CareerHighlights = () => {
               className="border border-primary text-primary px-8 py-3 rounded-full font-semibold hover:bg-primary hover:text-primary-foreground transition-all duration-300">
                 Download Resume
               </button>
-              {/* <Button
-                    onClick={handleDownloadResume}
-                    className="border border-primary text-primary px-8 py-3 rounded-full font-semibold hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-                  >
-                    Download Resume
-                  </Button> */}
-
             </div>
           </div>
         </div>
