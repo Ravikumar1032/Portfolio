@@ -144,7 +144,7 @@ export const education = [
     institution: "Rajiv Gandhi University of Knowledge Technologies, Nuzvid",
     period: "2021 – 2025",
     grade: "CGPA: 7.8",
-    icon: "GraduationCap", // Changed from 🎓
+    icon: "GraduationCap",
     gradient: "from-primary to-accent", 
     description: "Completed my Bachelor of Technology in Computer Science Engineering with a focus on software development, data structures, algorithms, and modern web technologies. Active in coding competitions and practical project development.",
   },
@@ -152,8 +152,8 @@ export const education = [
     degree: "Pre-University Course (PUC)",
     institution: "Rajiv Gandhi University of Knowledge Technologies, Nuzvid",
     period: "2019 – 2021",
-    grade: "CGPA: 8.55",
-    icon: "BookOpen", // Changed from 📚
+    grade: "CGPA: 8.7",
+    icon: "BookOpen", 
     gradient: "from-accent to-secondary",
     description: "Completed Pre-University Course with excellent academic performance, building strong foundation in mathematics, physics, and computer science fundamentals.",
   },
