@@ -11,7 +11,7 @@ export const projects = [
   {
     title: "Connectify Like Minds",
     description: "Developed a comprehensive learning platform connecting users with similar interests using MERN stack. Built a collaboration tool for students with secure login and dynamic course catalogs. Implemented group functionalities and real-time communication features. Created RESTful APIs for smooth front-end and back-end communication.",
-    image: "https://github.com/Ravikumar1032/Connectify/blob/main/Screenshot/Screenshot%20(85).png",
+    image: "https://raw.githubusercontent.com/Ravikumar1032/Portfolio/refs/heads/main/frontend/src/assets/screenshort/img1.png",
     technologies: ["JavaScript", "React", "Node.js", "Express", "MongoDB"],
     github: "https://github.com/Ravikumar1032/Connectify",
     demo: null,
