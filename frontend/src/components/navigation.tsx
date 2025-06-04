@@ -83,7 +83,7 @@ export default function Navigation() {
             {/* Outer glow effect */}
             <div className="absolute -inset-1 rounded-full border border-blue-400 animate-ping opacity-30"></div>
           </div>
-          <span className="text-xl font-bold text-gradient hover:scale-105 transition-transform">
+          <span className="text-2xl font-bold text-gradient hover:scale-105 transition-transform">
             RavikumaR
           </span>
         </button>

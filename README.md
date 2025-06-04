@@ -21,17 +21,17 @@ A modern, responsive personal portfolio website built with **React**, **TypeScri
 ## 🖼️ Screenshots
 
 <p align="center">
-  <img src="./src/assets/screenshort/Screenshot 2025-06-03 at 3.13.21 PM.png" width="600" />
-  <img src="./src/assets/screenshort/Screenshot 2025-06-03 at 3.22.39 PM.png" width="600" />
-  <img src="./src/assets/screenshort/Screenshot 2025-06-03 at 3.25.01 PM.png" width="600" />
-  <img src="./src/assets/screenshort/Screenshot 2025-06-03 at 3.25.36 PM.png" width="600" />
-  <img src="./src/assets/screenshort/Screenshot 2025-06-03 at 3.26.16 PM.png" width="600" />
-  <img src="./src/assets/screenshort/Screenshot 2025-06-03 at 3.26.26 PM.png" width="600" />
-  <img src="./src/assets/screenshort/Screenshot 2025-06-03 at 3.26.52 PM.png" width="600" />
-  <img src="./src/assets/screenshort/Screenshot 2025-06-03 at 3.27.14 PM.png" width="600" />
-  <img src="./src/assets/screenshort/Screenshot 2025-06-03 at 3.27.35 PM.png" width="600" />
-  <img src="./src/assets/screenshort/Screenshot 2025-06-03 at 3.28.01 PM.png" width="600" />
-  <img src="./src/assets/screenshort/Screenshot 2025-06-03 at 3.28.13 PM.png" width="600" />
+  <img src="./client/src/assets/screenshort/img1.png" />
+  <img src="./client/src/assets/screenshort/img2.png" />
+  <img src="./client/src/assets/screenshort/img3.png" />
+  <img src="./client/src/assets/screenshort/img4.png" />
+  <img src="./client/src/assets/screenshort/img5.png" />
+  <img src="./client/src/assets/screenshort/img6.png" />
+  <img src="./client/src/assets/screenshort/img7.png" />
+  <img src="./client/src/assets/screenshort/img8.png" />
+  <img src="./client/src/assets/screenshort/img9.png" />
+  <img src="./client/src/assets/screenshort/img10.png" />
+  <img src="./client/src/assets/screenshort/img11.png" />
 </p>
 
 ---

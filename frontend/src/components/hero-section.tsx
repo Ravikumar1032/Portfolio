@@ -41,7 +41,7 @@ export default function HeroSection() {
               transition={{ duration: 0.8 }}
               className="text-center lg:text-left"
             >
-              <h1 className="text-5xl lg:text-7xl font-bold mb-6 leading-tight">
+              <h1 className="text-4xl lg:text-7xl font-bold mb-6 leading-tight">
                 Hi, I'm <span className="text-gradient">Ravikumar</span>
               </h1>
               <h2 className="text-2xl lg:text-3xl font-medium text-muted-foreground mb-8">
