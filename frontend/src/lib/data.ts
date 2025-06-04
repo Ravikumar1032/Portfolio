@@ -3,7 +3,7 @@ export const projects = [
   {
     title: "Personal Portfolio",
     description: "Developed a responsive portfolio website using React.js with sections for projects and skills. Implemented contact form functionality with backend validation and database storage. Optimized website performance and SEO with proper meta tags and efficient code. Created an appealing and professional UI to showcase personal achievements and skills.",
-    image: "https://github.com/Ravikumar1032/Portfolio/blob/main/frontend/src/assets/screenshort/img1.png",
+    image: "https://raw.githubusercontent.com/Ravikumar1032/Portfolio/refs/heads/main/frontend/src/assets/screenshort/img1.png",,
     technologies: ["React", "Tailwind CSS", "Material UI", "Framer Motion", "TypeScript", "Vite"],
     github: "https://github.com/Ravikumar1032/Portfolio",
     demo: null,
@@ -11,7 +11,7 @@ export const projects = [
   {
     title: "Connectify Like Minds",
     description: "Developed a comprehensive learning platform connecting users with similar interests using MERN stack. Built a collaboration tool for students with secure login and dynamic course catalogs. Implemented group functionalities and real-time communication features. Created RESTful APIs for smooth front-end and back-end communication.",
-    image: "https://raw.githubusercontent.com/Ravikumar1032/Portfolio/refs/heads/main/frontend/src/assets/screenshort/img1.png",
+    image: "https://raw.githubusercontent.com/Ravikumar1032/Connectify/refs/heads/main/Screenshot/Screenshot%20(85).png",
     technologies: ["JavaScript", "React", "Node.js", "Express", "MongoDB"],
     github: "https://github.com/Ravikumar1032/Connectify",
     demo: null,
@@ -19,7 +19,7 @@ export const projects = [
   {
     title: "FloraCart",
     description: "Created an e-commerce platform with responsive UI using React.js and Bootstrap. Developed dynamic product filtering and search functionality using JavaScript. Built secure authentication system with user profile management features. Implemented state management for cart functionality and checkout process.",
-    image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+    image: "https://raw.githubusercontent.com/Ravikumar1032/FloraCart/refs/heads/main/Screenshots/Screenshot%202025-05-01%20131918.png",
     technologies: ["JavaScript", "React.js", "Bootstrap", "CSS"],
     github: "https://github.com/Ravikumar1032/FloraCart",
     demo: null,
@@ -27,7 +27,7 @@ export const projects = [
   {
     title: "Loan Web App",
     description: "Comprehensive loan management solution with separate user and admin workflows. Implemented multi-step loan application form capturing personal, financial, and banking details. Built admin dashboard with application review functionality and credit assessment logic. Created responsive design ensuring optimal user experience across all devices.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+    image: "https://raw.githubusercontent.com/Ravikumar1032/Loan-Web-App/refs/heads/main/Screenshots/Screenshot%20(24).png",
     technologies: ["JavaScript", "React", "Node.js", "Express", "MongoDB"],
     github: "https://github.com/Ravikumar1032/Loan-Web-App",
     demo: null,
@@ -43,7 +43,7 @@ export const projects = [
   {
     title: "Kid Activity Assignment App",
     description: "Developed a parenting app to help manage and track kids' activities and achievements. Implemented dynamic points calculation for total, monthly, and recent activity performance. Created functionality to update activity points in real-time and delete activities with confirmation. Built responsive interface with React and styled with Bootstrap for optimal user experience.",
-    image: "https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+    image: "https://raw.githubusercontent.com/Ravikumar1032/Kid-Activity-Assignment-App/refs/heads/main/Images/Screenshot%20(143).png",
     technologies: ["JavaScript", "React", "Node.js", "MongoDB"],
     github: "https://github.com/Ravikumar1032/Kid-Activity-Assignment-App",
     demo: null,
@@ -77,7 +77,7 @@ export const skillCategories = [
       { name: "HTML5/CSS3", level: 95 },
       { name: "Tailwind CSS", level: 88 },
       { name: "Material UI", level: 82 },
-      { name: "Bootstrap", level: 82 },
+      { name: "Bootstrap", level: 90 },
     ],
   },
   {
