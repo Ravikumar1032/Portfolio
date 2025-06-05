@@ -7,7 +7,7 @@ const GoalsSection = () => {
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <div className="flex items-center justify-center gap-4 mb-6">
+          <div className="flex items-center justify-center gap-2 mb-6">
             <div className="relative">
               <Trophy className="w-12 h-12 text-primary animate-pulse" />
             </div>
