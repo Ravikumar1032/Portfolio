@@ -14,17 +14,6 @@ export default function HeroSection() {
     }
   };
 
-  // const handleDownloadResume = () => {
-  //   // Replace with your actual resume PDF URL
-  //   const resumeUrl = "/assets/resume/Ravikumar_Resume.pdf";
-  //   const link = document.createElement('a');
-  //   link.href = resumeUrl;
-  //   link.download = "Ravikumar_Naik_Resume.pdf";
-  //   document.body.appendChild(link);
-  //   link.click();
-  //   document.body.removeChild(link);
-  // };
-
   return (
     <>
       <section
@@ -57,7 +46,7 @@ export default function HeroSection() {
                 technologies.
               </p>
 
-              <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex flex-wrap gap-4 mb-8 justify-center lg:justify-start">
                 <Button
                   onClick={() => scrollToSection("projects")}
                   className="bg-gradient-to-r from-primary to-accent hover:scale-105 transition-all duration-300"
