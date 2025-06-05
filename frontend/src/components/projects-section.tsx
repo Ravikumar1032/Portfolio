@@ -4,8 +4,22 @@ import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github } from "lucide-react";
 import { motion } from "framer-motion";
 import { projects } from "@/lib/data";
+import { useState, useEffect } from "react";
 
 export default function ProjectsSection() {
+  // State to track if screen is mobile width
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 768);
+    handleResize(); // initial check
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  // Show only first 3 projects on mobile, all projects on desktop
+  const displayedProjects = isMobile ? projects.slice(0, 3) : projects;
+
   return (
     <section id="projects" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-6">
@@ -16,15 +30,17 @@ export default function ProjectsSection() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl lg:text-5xl font-bold mb-6 text-gradient">Featured Projects</h2>
+          <h2 className="text-4xl lg:text-5xl font-bold mb-6 text-gradient">
+            Featured Projects
+          </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            A collection of projects that showcase my skills in full-stack development, 
-            problem-solving, and modern web technologies.
+            A collection of projects that showcase my skills in full-stack
+            development, problem-solving, and modern web technologies.
           </p>
         </motion.div>
-        
-        <div className="grid lg:grid-cols-2 gap-12">
-          {projects.map((project, index) => (
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          {displayedProjects.map((project, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 50 }}
@@ -69,7 +85,8 @@ export default function ProjectsSection() {
                         Code
                       </a>
                     </Button>
-                    {project.demo && (
+                    {/* Hide demo button on mobile */}
+                    {!isMobile && project.demo && (
                       <Button size="sm" asChild>
                         <a
                           href={project.demo}
@@ -88,7 +105,7 @@ export default function ProjectsSection() {
             </motion.div>
           ))}
         </div>
-        
+
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -96,7 +113,10 @@ export default function ProjectsSection() {
           viewport={{ once: true }}
           className="text-center mt-12"
         >
-          <Button asChild className="bg-gradient-to-r from-accent to-secondary hover:scale-105 transition-all duration-300">
+          <Button
+            asChild
+            className="bg-gradient-to-r from-accent to-secondary hover:scale-105 transition-all duration-300"
+          >
             <a
               href="https://github.com/Ravikumar1032"
               target="_blank"
