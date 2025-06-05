@@ -67,9 +67,9 @@ html.dark {
   background-color: #0a0a0a !important;
   color: #ffffff !important;
 }
-
 body {
   transition: background-color 0.3s ease, color 0.3s ease;
+  overflow-x: hidden;
 }
 
 html:not(.dark) body {
