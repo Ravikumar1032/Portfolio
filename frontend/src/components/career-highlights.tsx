@@ -89,7 +89,7 @@ const CareerHighlights = () => {
             <div className="w-12 h-12 rounded-full bg-gradient-to-r from-primary to-accent flex items-center justify-center">
               <Trophy className="w-6 h-6 text-white" />
             </div>
-            <h2 className="text-4xl lg:text-5xl font-bold text-gradient">
+            <h2 className="text-3xl lg:text-5xl font-bold text-gradient">
               Career Highlights
             </h2>
           </div>
