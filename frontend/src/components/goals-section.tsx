@@ -145,7 +145,7 @@ const GoalsSection = () => {
         {/* Bottom CTA */}
         <div className="text-center mt-16">
           <div className="inline-block bg-card/10 backdrop-blur-sm rounded-2xl p-8 border border-primary/30">
-            <div className="flex items-center justify-center gap-3 mb-4">
+            <div className="flex items-center justify-center gap-2 mb-4">
               <School className="w-6 h-6 text-primary" />
               <h3 className="text-1xl  sm:text-2xl font-bold text-foreground">Ready to Connect?</h3>
             </div>
