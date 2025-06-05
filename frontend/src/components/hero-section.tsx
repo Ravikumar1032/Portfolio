@@ -43,24 +43,24 @@ export default function HeroSection() {
                     Passionate MERN stack developer and Jr. Software Developer Intern at <span className="text-green-600 font-bold">Ezfinanz</span>. Skilled in building responsive UIs with <span className="text-accent font-semibold">React, TypeScript, Tailwind</span>, integrating RESTful APIs, and using <span className="text-primary font-semibold">Socket.io</span> for real-time features. Experienced with <span className="text-secondary font-semibold">Material UI, ShadCN</span>, <span className="text-accent font-semibold">Frappe Framework</span>, and tools like Postman, Bruno, and TablePlus
               </p>
 
-              <div className="flex flex-wrap gap-1 md:gap-4 mb-8 justify-center lg:justify-start">
-                <Button
-                  onClick={() => scrollToSection("projects")}
-                  className="bg-gradient-to-r from-primary to-accent hover:scale-105 transition-all duration-300"
-                  size="lg"
-                >
-                  View My Work
-                </Button>
-                <Button
-                  onClick={() => scrollToSection("contact")}
-                  variant="outline"
-                  className="border-accent text-accent hover:bg-accent hover:text-accent-foreground transition-all duration-300"
-                  size="lg"
-                >
-                  Get In Touch
-                </Button>
-                
+              <div className="flex flex-wrap gap-2 md:gap-4 mb-8 justify-center lg:justify-start">
+                  <Button
+                    onClick={() => scrollToSection("projects")}
+                    className="w-32 md:w-auto bg-gradient-to-r from-primary to-accent hover:scale-105 transition-all duration-300"
+                    size="lg"
+                  >
+                    View My Work
+                  </Button>
+                  <Button
+                    onClick={() => scrollToSection("contact")}
+                    variant="outline"
+                    className="w-32 md:w-auto border-accent text-accent hover:bg-accent hover:text-accent-foreground transition-all duration-300"
+                    size="lg"
+                  >
+                    Get In Touch
+                  </Button>
               </div>
+
 
             
               <div className="flex justify-center lg:justify-start space-x-6">
