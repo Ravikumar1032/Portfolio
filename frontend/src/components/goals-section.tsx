@@ -147,7 +147,7 @@ const GoalsSection = () => {
           <div className="inline-block bg-card/10 backdrop-blur-sm rounded-2xl p-8 border border-primary/30">
             <div className="flex items-center justify-center gap-2 mb-4">
               <School className="w-6 h-6 text-primary" />
-              <h3 className="text-1xl  sm:text-2xl font-bold text-foreground">Ready to Connect?</h3>
+              <h3 className="text-2xl font-bold text-foreground">Ready to Connect?</h3>
             </div>
             <p className="text-muted-foreground mb-6 max-w-2xl">
               If you have opportunities that align with my goals or would like to discuss potential collaborations, I'd love to hear from you!
