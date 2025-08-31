@@ -74,7 +74,7 @@ export default function HeroSection() {
                   <Github className="h-6 w-6" />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/ravikumar-naik-mudhavath-46a36b252/"
+                  href="https://www.linkedin.com/in/ravikumar-naik/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors text-2xl"
