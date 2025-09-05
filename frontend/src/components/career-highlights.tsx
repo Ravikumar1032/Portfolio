@@ -22,7 +22,7 @@ const CareerHighlights = () => {
     {
       icon: <GraduationCap className="w-6 h-6" />,
       title: "Academic Excellence",
-      description: "B.Tech in Computer Science (7.8 CGPA) from RGUKT Nuzvid",
+      description: "B.Tech in Computer Science and Engineering (8.0 CGPA) from Rajiv Gandhi University of Knowledge Technologies, Nuzvid",
       color: "text-primary",
       bgColor: "bg-primary/10",
       borderColor: "border-primary/30"
@@ -30,7 +30,7 @@ const CareerHighlights = () => {
     {
       icon: <Code className="w-6 h-6" />,
       title: "Industry Experience",
-      description: "8+ months of industry experience in full-stack development",
+      description: "Software Engineer with nearly 1 year of industry experience in full-stack development, delivering scalable applications and real-world solutions",
       color: "text-secondary",
       bgColor: "bg-secondary/10",
       borderColor: "border-secondary/30"
@@ -38,7 +38,7 @@ const CareerHighlights = () => {
     {
       icon: <Target className="w-6 h-6" />,
       title: "Project Portfolio",
-      description: "Built 5+ full-stack projects using React, Node.js, and MongoDB",
+      description: "Built 5+ full-stack projects using React, Node.js, and MongoDB with real-time development experience",
       color: "text-accent",
       bgColor: "bg-accent/10",
       borderColor: "border-accent/30"
@@ -46,7 +46,7 @@ const CareerHighlights = () => {
     {
       icon: <Brain className="w-6 h-6" />,
       title: "Problem Solving",
-      description: "Solved 250+ coding problems on LeetCode",
+      description: "Solved 300+ coding problems on LeetCode, strengthening problem-solving and algorithmic skills",
       color: "text-primary",
       bgColor: "bg-primary/10",
       borderColor: "border-primary/30"
@@ -54,7 +54,7 @@ const CareerHighlights = () => {
     {
       icon: <Trophy className="w-6 h-6" />,
       title: "Academic Achievement",
-      description: "Mandal First in SSC with 9.8 GPA",
+      description: "Achieved Mandal First and School First in SSC with a 9.8 GPA",
       color: "text-secondary",
       bgColor: "bg-secondary/10",
       borderColor: "border-secondary/30"
@@ -156,10 +156,10 @@ const CareerHighlights = () => {
         {/* Quick Stats */}
         <div className="mt-16 grid grid-cols-2 lg:grid-cols-4 gap-6">
           {[
-            { number: "7.8", label: "CGPA", suffix: "/10" },
-            { number: "8+", label: "Months", suffix: " Experience" },
+            { number: "8.0", label: "CGPA", suffix: "/10" },
+            { number: "<1", label: "Year", suffix: "Experience" },
             { number: "10+", label: "Projects", suffix: " Built" },
-            { number: "250+", label: "Problems", suffix: " Solved" }
+            { number: "300+", label: "Problems", suffix: " Solved" }
           ].map((stat, index) => (
             <div key={index} className="text-center p-6 bg-card/20 rounded-2xl border border-border hover:border-primary/30 transition-all duration-300">
               <div className="text-3xl font-bold text-gradient mb-2">
