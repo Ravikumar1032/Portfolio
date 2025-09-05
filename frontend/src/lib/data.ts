@@ -110,33 +110,28 @@ export const skillCategories = [
 
 export const experiences = [
   {
-    title: "Junior Software Developer Full-time",
+    title: "Junior Software Developer (Full-time)",
     company: "Ezfinanz, Hyderabad",
     period: "Sep 2025 – Present",
     image: "https://images.presentationgo.com/2025/04/software-developer-coding-laptop.jpg",
     responsibilities: [
-      "Developed the company’s primary website from scratch, integrating backend and frontend seamlessly; achieved 95+ Lighthouse performance scores, 30% faster load times, and improved customer retention by 20% through enhanced UI/UX",
-      "Conducted weekly Agile sprints and standups for website development, improving sprint velocity by 15% and ensuring on-time feature delivery",
-      "Developed and maintained scalable fintech applications using React, TypeScript, and Tailwind CSS, reducing UI bugs by 20% and improving feature delivery speed",      
-      "Built and optimized backend APIs with Frappe Framework, MariaDB, and PostgreSQL, reducing query response time by 40% through indexing and caching",
-      "Collaborated with cross-functional teams to deliver fintech features, boosting workflow efficiency by 25% and ensuring timely project delivery",
-      "Implemented secure authentication, validation, and role-based access, strengthening application security and ensuring compliance with standards",
-      "Enhanced UI/UX and optimized performance, achieving 30% faster load times and improving customer retention by 20%",
-      "Actively participated in code reviews, debugging, and deployments, increasing overall release quality and reducing production issues by 15%",
+      "Developed the company’s primary website from scratch, integrating backend and frontend; achieved 95+ Lighthouse performance scores, 30% faster load times, and improved customer retention by 20%",
+      "Conducted weekly Agile sprints and standups, improving sprint velocity by 15% and ensuring on-time feature delivery",
+      "Built and optimized backend APIs with Frappe Framework, MariaDB, and PostgreSQL, reducing query response times by 40%",
+      "Implemented secure authentication, validation, and role-based access, strengthening application security and compliance",
+      "Collaborated with cross-functional teams to deliver fintech features, boosting workflow efficiency by 25%",
     ],
   },
   {
-    title: "Junior Software Developer Internship",
+    title: "Junior Software Developer Intern",
     company: "Ezfinanz, Hyderabad",
     period: "Feb 2025 – Aug 2025",
     image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
     responsibilities: [
       "Developed and integrated RESTful APIs for financial applications, improving backend data exchange efficiency by 25%",
-      "Implemented real-time communication features with Socket.io, enhancing user engagement and collaboration by 20%",
-      "Created consistent UI components using Material UI and ShadCN, improving design consistency and reducing development time by 15%",
-      "Worked with Frappe framework DocType, client scripts, workers, RQ Jobs and batches, involving automation and reducing manual workload by 25%",
-      "Integrated React with TypeScript and Frappe for seamless full-stack workflows, accelerating development speed by 20%",
-      "Utilized Postman, Bruno, and TablePlus for API testing and PostgreSQL management, reducing debugging time by 15%",
+      "Implemented real-time communication features with Socket.io, enhancing user engagement by 20%",
+      "Created consistent UI components with Material UI and ShadCN, reducing development time by 15%",
+      "Worked with Frappe DocTypes, client scripts, and RQ jobs, automating processes and reducing manual effort by 25%",
     ],
   },
   {
@@ -145,13 +140,15 @@ export const experiences = [
     period: "Jun 2024 – Aug 2024",
     image: "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
     responsibilities: [
-      "Completed one-month trainee program with practical full-stack development projects, gaining end-to-end exposure",
-      "Built responsive and user-friendly interfaces using HTML, CSS, Bootstrap, and React, improving UI responsiveness by 30%",
-      "Applied Spring Boot basics and annotations in backend development, improving understanding of scalable server-side applications",
-      "Implemented unit testing with JUnit, reducing code defects by 15% during the development cycle",
+      "Completed trainee program with hands-on full-stack development experience",
+      "Built responsive UIs with HTML, CSS, Bootstrap, and React, improving UI responsiveness by 30%",
+      "Explored backend concepts with Spring Boot and annotations",
+      "Implemented unit testing with JUnit, reducing code defects by 15%",
+      "Tutored 10+ students in Java, improving their coding skills and boosting team productivity",
     ],
   },
 ];
+
 
 
 // export const experiences = [
