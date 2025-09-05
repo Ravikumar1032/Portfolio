@@ -186,7 +186,7 @@ export const education = [
     degree: "B.Tech in Computer Science and Engineering",
     institution: "Rajiv Gandhi University of Knowledge Technologies, Nuzvid",
     period: "2021 – 2025",
-    grade: "CGPA: 7.8",
+    grade: "CGPA: 8.0",
     icon: "GraduationCap",
     gradient: "from-primary to-accent", 
     description: "Completed my Bachelor of Technology in Computer Science Engineering with a focus on software development, data structures, algorithms, and modern web technologies. Active in coding competitions and practical project development.",
@@ -195,7 +195,7 @@ export const education = [
     degree: "Pre-University Course (PUC)",
     institution: "Rajiv Gandhi University of Knowledge Technologies, Nuzvid",
     period: "2019 – 2021",
-    grade: "CGPA: 8.7",
+    grade: "CGPA: 8.6",
     icon: "BookOpen", 
     gradient: "from-accent to-secondary",
     description: "Completed Pre-University Course with excellent academic performance, building strong foundation in mathematics, physics, and computer science fundamentals.",
@@ -205,7 +205,7 @@ export const education = [
     institution: "Government High School, Vellatur",
     period: "2018 – 2019",
     grade: "GPA: 9.8",
-    icon: "School", // Changed from 🏫
+    icon: "School", 
     gradient: "from-secondary to-primary",
     description: "Completed high school education with outstanding academic performance, demonstrating excellence in core subjects and setting foundation for future studies.",
     achievement: "Secured Mandal First position in 10th Class",
@@ -215,8 +215,8 @@ export const education = [
 export const achievements = [
   {
     title: "LeetCode Champion",
-    organization: "250+ Problems Solved",
-    description: "Completed over 250+ problems on LeetCode, earning 50 Days and 100 Days consistency badges. Strong problem-solving skills in data structures and algorithms.",
+    organization: "300+ Problems Solved",
+    description: "Completed over 300+ problems on LeetCode, earning 50 Days and 100 Days consistency badges. Strong problem-solving skills in data structures and algorithms.",
     icon: "Code2", // String reference instead of component
     gradient: "from-orange-500 to-red-500",
     badgeColor: "orange-400",
