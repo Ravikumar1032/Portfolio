@@ -110,9 +110,9 @@ export const skillCategories = [
 
 export const experiences = [
   {
-    title: "Junior Software Developer (Full-time)",
+    title: "Junior Software Developer",
     company: "Ezfinanz, Hyderabad",
-    period: "Sep 2025 – Present",
+    period: "Sep 2025 – Present  (Full-time)",
     image: "https://images.presentationgo.com/2025/04/software-developer-coding-laptop.jpg",
     responsibilities: [
       "Developed the company’s primary website from scratch, integrating backend and frontend; achieved 95+ Lighthouse performance scores, 30% faster load times, and improved customer retention by 20%",
@@ -123,9 +123,9 @@ export const experiences = [
     ],
   },
   {
-    title: "Junior Software Developer Intern",
+    title: "Junior Software Developer",
     company: "Ezfinanz, Hyderabad",
-    period: "Feb 2025 – Aug 2025",
+    period: "Feb 2025 – Aug 2025 Intern",
     image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
     responsibilities: [
       "Developed and integrated RESTful APIs for financial applications, improving backend data exchange efficiency by 25%",
