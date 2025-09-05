@@ -4,9 +4,9 @@ import MyImage from "@/assets/profile/my_image.jpg";
 MyImage
 const stats = [
   { value: "10+", label: "Projects Completed" },
-  { value: "250+", label: "LeetCode Problems" },
-  { value: "8+", label: "Months Experience" },
-  { value: "7.8", label: "CGPA" },
+  { value: "300+", label: "LeetCode Problems" },
+  { value: "<1", label: "Year of Industrial Experience" },
+  { value: "8.0", label: "CGPA" },
 ];
 
 export default function AboutSection() {
@@ -55,19 +55,25 @@ export default function AboutSection() {
                 My Journey
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                I'm a passionate Computer Science graduate from RGUKT Nuzvid
-                with a strong foundation in full-stack development. My journey
-                began with curiosity about how websites work, and it has evolved
-                into a deep passion for creating innovative web applications.
+                I'm a passionate Computer Science graduate from Rajiv Gandhi University of 
+                Knowledge Technologies (RGUKT), Nuzvid with a strong foundation in full-stack 
+                development. My journey began with curiosity about how websites work, and it has 
+                evolved into a deep passion for creating innovative web applications.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                I started my career with internships at Ezfinanz and Edubot Software Services, 
+                where I gained hands-on experience in building scalable applications and 
+                responsive UIs. These opportunities helped me sharpen my problem-solving skills 
+                and understand real-world software development practices.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                I completed my B.Tech and gained practical experience through
-                internships at Ezfinanz and Edubot Software Services. I love to
-                design UI and building responsive and user-friendly websites. I
-                love solving complex problems and building applications that
-                make a real impact.
+                Currently, I am working full-time as a Junior Software Developer at Ezfinanz, 
+                where I have contributed to developing the company’s primary website and 
+                fintech applications. My focus is on delivering high-performance, secure, and 
+                user-friendly solutions that create measurable business impact.
               </p>
             </div>
+
 
             <div className="grid grid-cols-2 gap-8">
               {stats.map((stat, index) => (
