@@ -157,7 +157,7 @@ const CareerHighlights = () => {
         <div className="mt-16 grid grid-cols-2 lg:grid-cols-4 gap-6">
           {[
             { number: "8.0", label: "CGPA", suffix: "/10" },
-            { number: "<1", label: "Year", suffix: "Experience" },
+            { number: "<1", label: " Year", suffix: " Experience" },
             { number: "10+", label: "Projects", suffix: " Built" },
             { number: "300+", label: "Problems", suffix: " Solved" }
           ].map((stat, index) => (
