@@ -5,7 +5,7 @@ export const projects = [
     description: "Built a responsive, SEO-optimized portfolio using React, TypeScript, and Tailwind CSS. Integrated Framer Motion for smooth animations and theme toggles, improving user engagement by 25%. Achieved 95+ Lighthouse performance scores with fast load times and mobile-first design.",
     image: "https://raw.githubusercontent.com/Ravikumar1032/Portfolio/refs/heads/main/frontend/src/assets/screenshort/img1.png",
     technologies: ["React", "Tailwind CSS", "Material UI", "Framer Motion", "TypeScript", "Vite"],
-    github: "https://github.com/Ravikumar1032/Portfolio",
+    github: "https://ravikumarnaik.vercel.app",
     demo: null,
   },
   {
@@ -99,7 +99,7 @@ export const skillCategories = [
     color: "text-secondary",
     skills: [
       { name: "Java", level: 85 },
-      { name: "Python", level: 75 },
+      { name: "Python", level: 80 },
       { name: "JavaScript", level: 92 },
       { name: "Git/GitHub", level: 88 },
       { name: "Postman", level: 82 },
