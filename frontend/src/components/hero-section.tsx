@@ -40,7 +40,7 @@ export default function HeroSection() {
                 </span>
               </h2>
               <p className="text-lg text-muted-foreground mb-10 max-w-2xl leading-relaxed">
-                    Passionate MERN stack developer and Jr. Software Developer Intern at <span className="text-green-600 font-bold">Ezfinanz</span>. Skilled in building responsive UIs with <span className="text-accent font-semibold">React, TypeScript, Tailwind</span>, integrating RESTful APIs, and using <span className="text-primary font-semibold">Socket.io</span> for real-time features. Experienced with <span className="text-secondary font-semibold">Material UI, ShadCN</span>, <span className="text-accent font-semibold">Frappe Framework</span>, and tools like Postman, Bruno, and TablePlus
+                    Passionate MERN stack developer and Junior Software Developer at <span className="text-green-600 font-bold">Ezfinanz</span>. Skilled in building responsive UIs with <span className="text-accent font-semibold">React, TypeScript, Tailwind</span>, integrating RESTful APIs, and using <span className="text-primary font-semibold">Socket.io</span> for real-time features. Experienced with <span className="text-secondary font-semibold">Material UI, ShadCN</span>, <span className="text-accent font-semibold">Frappe Framework</span>, <span className="text-blue-600 font-bold">Python scriping and web scraping</span> and tools like Postman, Bruno, and TablePlus
               </p>
 
               <div className="flex flex-wrap gap-2 md:gap-4 mb-8 justify-center lg:justify-start">
