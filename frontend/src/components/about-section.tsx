@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 import MyImage from "@/assets/profile/my_image.jpg"; 
 MyImage
 const stats = [
-  { value: "10+", label: "Projects Completed" },
-  { value: "300+", label: "LeetCode Problems" },
-  { value: "<1", label: "Year of Industrial Experience" },
+  { value: "10+", label: "Full Stack Projects Completed" },
+  { value: "~300", label: "LeetCode Problems" },
+  { value: "1+", label: "Year of Industrial Experience" },
   { value: "8.0", label: "CGPA" },
 ];
 
